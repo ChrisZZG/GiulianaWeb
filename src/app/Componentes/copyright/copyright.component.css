@@ -1,0 +1,64 @@
+#footer {
+    background: #181818;
+    width: 100vw;
+    height: auto;
+  }
+  
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    grid-gap: 1rem;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .copyright {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .copyright_text {
+    color: #f2efec;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+  }
+  
+  .mysite {
+   margin: auto;
+   justify-content: center;
+   text-align: center;
+  }
+  
+  
+  
+  .mysite img {
+    width: 30%;
+   font-size: 10px;
+   margin: auto;
+   justify-content: center;
+  }
+
+  /* INTERACCIONES DE MOUSE */
+
+a:hover {
+    
+    background-color: #ee6b5d80;
+    border-radius: 5px;
+    padding: 1px;
+  }
+  
+  #navbar a:hover {
+    color: #b80d3a;
+  }
+
+  /* RESPONSIVIDAD DE COPYRIGHT */
+
+@media only screen and (max-width: 900px){
+    .footer_grid{
+      grid-template-columns: 1fr;
+    } 
+  }

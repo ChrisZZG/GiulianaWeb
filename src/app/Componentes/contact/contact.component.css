@@ -1,0 +1,74 @@
+#contact {
+    background-color: black;
+    color: #f2efec;
+  }
+  .contact_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .contact_info {
+    justify-content: center;
+    width: 100%;
+    padding-top: 10%;
+  }
+  .contact_nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact_nav_a {
+    color: #b80d3a;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  .grid_img {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+  }
+  
+  .contact_img {
+  
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  /* INTERACCIONES DE MOUSE */
+
+a:hover {
+    color: #f2efec;
+    background-color: #25252580;
+    border-radius: 5px;
+    padding: 1px;
+  }
+  
+  #navbar a:hover {
+    color: #b80d3a;
+  }
+  
+/* RESPONSIVIDAD DE CONTACTO */
+
+@media only screen and (max-width: 900px){
+    .contact_grid{
+      grid-template-columns: 1fr;
+    } 
+    .contact_img {
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      padding-left: 15px;
+    }
+  }

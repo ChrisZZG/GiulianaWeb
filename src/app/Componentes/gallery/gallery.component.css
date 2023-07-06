@@ -1,0 +1,48 @@
+
+section {
+  background: #f2efec;
+  padding: 20px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+#title {
+  color: rgb(69, 63, 63);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.about_border {
+  border-bottom: 0.2rem solid #b80d3a;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
+.gallery_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .img_gallery {
+    object-fit: cover;
+  }
+  .gallery_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* RESPONSIVIDAD DE LA GALLERIA IMAGENES */
+@media only screen and (max-width: 900px){
+    .gallery_grid{
+      grid-template-columns: 1fr;
+    } 
+  }

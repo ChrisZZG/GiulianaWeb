@@ -1,0 +1,52 @@
+
+section {
+    background: #f2efec;
+    padding: 20px;
+    padding-top: 30px;
+    margin: auto;
+  }
+  
+  #title {
+    color: rgb(69, 63, 63);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+  
+  .about_border {
+    border-bottom: 0.2rem solid #b80d3a;
+    margin-bottom: 2rem;
+    width: 90%;
+  }
+
+  .video_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    justify-content: center;
+    margin-left: 9%;
+  }
+  
+  .video_grid_container {
+    justify-content: center;
+  }
+  
+  .video_item {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+  }
+  
+  /* RESPONSIVIDAD DE LA GALLERIA DE VIDEOS */
+
+@media only screen and (max-width: 900px){
+    .video_grid{
+      grid-template-columns: 1fr;
+    } 
+  }
